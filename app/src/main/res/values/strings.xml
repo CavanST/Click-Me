@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project3</string>
+    <string name="button">Click me</string>
+    <string name="textview">Hello</string>
+</resources>
