@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
                 new Button.OnClickListener(){
                     public void onClick(View v){
                         TextView lCavlaText = (TextView)findViewById(R.id.lCavlaText);
-                        lCavlaText.setText("Good Job");
+                        lCavlaText.setText("Short Click");
                     }
                 }
         );
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 new Button.OnLongClickListener(){
                     public boolean onLongClick(View v){
                         TextView lCavlaText = (TextView)findViewById(R.id.lCavlaText);
-                        lCavlaText.setText("Super Job!");
+                        lCavlaText.setText("Long Click");
                         return false;
                     }
                 }
